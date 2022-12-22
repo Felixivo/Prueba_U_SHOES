@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description"
+    content="En U SHOES encontrarás las mejores recomendaciones y servicios para mantener una vida saludable" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>U SHOES</title>
+
+  <!-- FAVICON -->
+
+  <link rel="shortcut icon"
+    href="https://res.cloudinary.com/dfiffp1jf/image/upload/v1671479623/U%20SHOES/img/Logo/Logo_2_oy2dpy.svg"
+    type="image/x-icon" />
+
+  <!-- Fonts -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&family=Readex+Pro:wght@200;400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@300;400;900&display=swap" rel="stylesheet" />
+
+  <!-- ICONS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+
+  <!-- CSS -->
+
+  <link rel="stylesheet" href="./styles/style.css" />
+
+  <link rel="stylesheet" href="/styles/normalice.css">
+
+   <!-- STYLES -->
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .parallax {
+      height: auto;
+      padding-block: 20px;
+      box-sizing: border-box;
+    }
+
+    #uno {
+      background: url(/img/scroll/scroll1.jpg) no-repeat fixed;
+      background-size: cover;
+    }
+
+    #dos {
+      background: url(/img/scroll/scroll2/scroll2.jpg) no-repeat fixed;
+      background-size: cover;
+    }
+
+    #tres {
+      background: url(/img/scroll/scroll3/scroll3.jpg) no-repeat fixed;
+      background-size: cover;
+    }
+
+    #cuatro {
+      background: url(/img/scroll/scroll4/scroll4.jpg) no-repeat fixed;
+      background-size: cover;
+    }
+
+    .pleno {
+      background: #050719;
+      height: 75px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="menu-hamburguesa" id="menu-hamburguesa">
+    <div class="menu-hamburguesa__container">
+      <div class="menu-hamburguesa__top">
+        <p class="menu-title">U SHOES</p>
+        <i class="fa-solid fa-xmark" id="close-menu"></i>
+      </div>
+      <ul class="menu-hamburguesa__items" id="menu-hamburguesa__items">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#products">indúmentaria</a></li>
+        <li>
+          <a href="#gallery">Contenido</a>
+        </li>
+        <li><a href="#info">Ver más</a></li>
+        <li><a href="#contact">Contactos</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="header" id="arriba">
+    <div class="header__container">
+      <div class="header__logo-container">
+        <h1 id="logo">U SHOES</h1>
+      </div>
+      <nav class="nav">
+        <i class="fa-solid fa-bars menu-hamburguesa__logo" id="open-menu"></i>
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#home" data-anima="1000">Inicio</a></li>
+          <li class="nav__item"><a href="#products" data-anima="1000">indúmentaria</a></li>
+          <li class="nav__item"><a href="#gallery" data-anima="1000">Contenido</a>
+          </li>
+          <li class="nav__item"><a href="#info" data-anima="1000" >Ver más</a></li>
+          <li class="nav__item"><a href="#contact" data-anima="1000">Contactos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section
+        data-center="background-position: center 0px;"
+        data-top-bottom="background-position: center -100px;"
+      >
+        <div class="hero" id="home">
+          <picture class="hero__image">
+            <source
+              srcset="./img/slider/bannermb.svg"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Slider/bannertb.svg"
+              media="(min-width: 748px)"
+            />
+            <img
+              src="img/Slider/banner.svg"
+              alt="Segui Nuestros pasos"
+              width="100%"
+              height="100%"
+            />
+          </picture>
+        </div>
+      </section>
+
+  <main>
+
+    <section id="uno" class="parallax">
+      <div
+        class="presentation"
+        data-bottom-top="background-position: center 100px;"
+        data-center="background-position: center 0px;"
+        data-top-bottom="background-position: center -100px;"
+      >
+        <div class="presentation__description-container" id="products">
+          <div class="presentation__description">
+            <span>¿Qué ofrecemos?</span>
+            <h2>Nuestros Productos</h2>
+            <p>
+              Te brindamos varios estilos de diferentes, y una gran variedad
+              de marcas del mercado.
+            </p>
+          </div>
+
+          <div class="products">
+            <div class="products__container">
+              <div class="products__img-container">
+                <img
+                  src="./img/Pastillas/Accesorios.svg"
+                  alt="Accesorios"
+                  width="109px"
+                  height="120px"
+                />
+              </div>
+              <h2 class="products__container">Accesorios</h2>
+              <p class="products__container">
+                Nuestros relojes y de otras marcas
+              </p>
+            </div>
+            <div class="products__container">
+              <div class="products__img-container">
+                <img
+                  src="./img/Pastillas/gorras.svg"
+                  alt="Gorras"
+                  width="120px"
+                  height="114px"
+                />
+              </div>
+              <h2 class="products__container">Gorras</h2>
+              <p class="products__container">
+                Nuestras gorras y de otras marcas
+              </p>
+            </div>
+            <div class="products__container">
+              <div class="products__img-container">
+                <img
+                  src="./img/Pastillas/Pantalon.svg"
+                  alt="Pantalon"
+                  width="120px"
+                  height="120px"
+                />
+              </div>
+              <h2 class="products__container">Pantalones</h2>
+              <p class="products__container">
+                Nuestros pantalones y de otras marcas
+              </p>
+            </div>
+            <div class="products__container">
+              <div class="products__img-container">
+                <img
+                  src="./img/Pastillas/Remera.svg"
+                  alt="Remera"
+                  width="120px"
+                  height="109px"
+                />
+              </div>
+              <h2 class="products__container">Remeras</h2>
+              <p class="products__container">
+                Nuestras remeras y de otras marcas
+              </p>
+            </div>
+            <div class="products__container">
+              <div class="products__img-container">
+                <img
+                  src="./img/Pastillas/Zapas.svg"
+                  alt="Zapas"
+                  width="109px"
+                  height="120px"
+                />
+              </div>
+              <h2 class="products__container">Zapatillas</h2>
+              <p class="products__container">
+                Nuestras zapatillas y de otras marcas
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pleno parallax"></section>
+
+    <section id="dos" class="parallax">
+      <div
+        class="gallery"
+        id="gallery"
+        data-bottom-top="background-position: center 200px;"
+        data-center="background-position: center 0px;"
+        data-top-bottom="background-position: center -200px;"
+      >
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/cordonesmb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/cordonestb.webp"
+              media="(min-width: 748px)"
+            />
+            <img
+              src="./img/Galleria/cordones.webp"
+              alt="Cordones"
+              width="100%"
+            />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Cordones</h3>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/Remeramb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/Remeratb.webp"
+              media="(min-width: 748px)"
+            />
+            <img src="./img/Galleria/Remera.webp" alt="Remera" width="100%" />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Remeras</h3>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/pantalonmb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/pantalontb.webp"
+              media="(min-width: 748px)"
+            />
+            <img
+              src="./img/Galleria/pantalon.webp"
+              alt="Pantalon"
+              width="100%"
+            />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Pantalones</h3>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/relojmb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/relojtb.webp"
+              media="(min-width: 748px)"
+            />
+            <img src="./img/Galleria/reloj.webp" alt="Reloj" width="100%" />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Accesorios</h3>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/gorramb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/gorratb.webp"
+              media="(min-width: 748px)"
+            />
+            <img src="./img/Galleria/gorra.webp" alt="Gorra" width="100%" />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Gorras</h3>
+          </div>
+        </div>
+        <div class="gallery__item">
+          <picture>
+            <source
+              srcset="./img/Galleria/zapatillamb.webp"
+              media="(min-width: 1024px)"
+            />
+            <source
+              srcset="./img/Galleria/zapatillatb.webp"
+              media="(min-width: 748px)"
+            />
+            <img
+              src="./img/Galleria/zapatilla.webp"
+              alt="Zapatilla"
+              width="100%"
+            />
+          </picture>
+          <div class="gallery__item-description">
+            <p>Indumentaria</p>
+            <h3>Zapatillas</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pleno parallax"></section>
+
+    <section id="tres" class="parallax">
+      <div
+        class="info"
+        id="info"
+        data-bottom-top="background-position: center -200px;"
+        data-top-bottom="background-position: center 0px;"
+      >
+        <div class="info__item-container">
+          <img
+            src="./img/Parrafos/ushoes.svg"
+            alt="Comunidad"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+          <p class="inf__item-description">
+            En U SHOES vas a encontrar productos únicos y %100 originales.
+            Sumate a nuestro servicio premium de consignación para vender tus
+            ítems en nuestro local en Buenos Aires y a través de nuestras
+            redes.
+          </p>
+        </div>
+        <div class="info__item-container flex-end">
+          <p class="inf__item-description">
+            U SHOES posee una amplia cantidad de estilos de ropa. Entre
+            nuestro inventario podés encontrar ropa de nuestra marca y de
+            otras como por ejemplo, Calvin Klein, Levi's, Puma, Vans, Adidas,
+            Nike, Supreme, The North Face, entre otras. Nosotros aparte de
+            tener una gran variedad de ropa, poseemos un estilo muy conocido
+            llamado urban.
+          </p>
+          <img
+            src="./img/Parrafos/Inventario.svg"
+            alt="U SHOES"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+        </div>
+        <div class="info__item-container">
+          <img
+            src="./img/Parrafos/Urban.svg"
+            alt="Ropa Urban"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+          <p class="inf__item-description">
+            ¿Cuál es el concepto de Urban Store? Urban Store® es el formato
+            outlet multimarcas bajo un concepto urbano y fresco y juvenil que
+            ofrece una amplia oferta de marcas originales e internacionales.
+          </p>
+        </div>
+        <div class="info__item-container flex-end">
+          <p class="inf__item-description">
+            La marca tiene una gran variabilidad de marcas y estilos, pero
+            nuestro objetivo principal son las zapatillas. En esta página
+            podrás encontrar zapatillas U SHOES y de una amplia cantidad de
+            marcas.
+          </p>
+          <img
+            src="./img/Parrafos/Zapatillas.svg"
+            alt="Zapatillas"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+        </div>
+        <div class="info__item-container">
+          <img
+            src="./img/Parrafos/estrellas.svg"
+            alt="Calidad"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+          <p class="inf__item-description">
+            Somos la primer tienda de consignación HYPE en la Argentina. Con
+            mas de 10 años de experiencia en la industria de los sneakers y el
+            hype, traemos la experiencia y la cultura del streetwear y las
+            marcas highend al país.
+          </p>
+        </div>
+        <div class="info__item-container flex-end">
+          <p class="inf__item-description">
+            Al ser tan grande el mercado de las zapatillas es imposible tener
+            todas en stock, por lo que si hay una zapatilla en especial que no
+            tenemos, se puede encargar y nosotros la conseguimos por vos.
+          </p>
+          <img
+            src="./img/Parrafos/Delivery.svg"
+            alt="Valoracion"
+            class="inf__item-img"
+            width="92px"
+            height="69px"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="pleno parallax"></section>
+
+    <section id="cuatro" class="parallax"> 
+      <div
+        class="contact-us"
+        id="contact"
+        data-bottom-top="background-position: center -200px;"
+        data-top-bottom="background-position: center 0px;"
+      >
+        <div class="contact-text">
+          <span>Consultas</span>
+          <h4>Comunícate con nosotros</h4>
+          <p>Llena este formulario para cualquier duda que tengas.</p>
+        </div>
+        <div class="contact__form-container">
+          <form
+            action="https://formsubmit.co/maquieirafelipe@gmail.com"
+            method="POST"
+            class="contact__form"
+            id="contact-form"
+          >
+            <div class="form__control">
+              <label for="name">Nombre *</label>
+              <input
+                class="contact__form-input"
+                type="text"
+                placeholder="Nombre"
+                name="nombre"
+                id="name"
+              />
+            </div>
+
+            <div class="form__control">
+              <label for="lastname">Apellido *</label>
+              <input
+                class="contact__form-input"
+                type="text"
+                placeholder="Apellido"
+                name="apellido"
+                id="lastname"
+              />
+            </div>
+
+            <div class="form__control">
+              <label for="email">Email *</label>
+              <input
+                class="contact__form-input"
+                type="email"
+                placeholder="Dirección de correo electrónico"
+                name="email"
+                id="email"
+              />
+            </div>
+
+            <div class="form__control">
+              <label for="comments">Comentarios *</label>
+              <input
+                class="contact__form-input"
+                type="text"
+                placeholder="Comentarios"
+                name="comentarios"
+                id="comments"
+              />
+            </div>
+
+            <div class="form__rules-container">
+              <span class="form__rules">* Campos obligatorios</span>
+
+              <button disabled type="submit" id="contact__form-submit">
+                Enviar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__items-container">
+        <div class="footer__items">
+          <h4>Datos</h4>
+          <div class="footer__items-decription">
+            <p>Felipe</p>
+            <p>Maquieira</p>
+            <p>Maquetado y Desarrollo Web</p>
+          </div>
+        </div>
+        <div class="footer__items">
+          <h3>Cursada</h3>
+          <div class="footer__items-decription">
+            <p>Turno mañana</p>
+            <p>Comisión DMM2CP</p>
+            <p>1er Año</p>
+          </div>
+        </div>
+      </div>
+      <div class="footer__social-media">
+        <div>
+          <h4>U SHOES</h4>
+          <p>¡Segui los pasos en nuestras redes!</p>
+        </div>
+        <div class="social-media">
+          <a
+            href="https://twitter.com/home"
+            target="_blank"
+            referrerpolicy="no-referrer"
+          >
+            <img
+              src="./img/Social/TW.svg"
+              alt="Twitter"
+              width="40px"
+              height="33px"
+            />
+          </a>
+          <a
+            href="https://www.facebook.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+          >
+            <img
+              src="./img/Social/FC.svg"
+              alt="Facebook"
+              width="30px"
+              height="40px"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+          >
+            <img
+              src="./img/Social/IG.svg"
+              alt="Instagram"
+              width="40px"
+              height="40px"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__rights">
+      <span>© 2022 U SHOES. DERECHOS DE AUTOR RESERVADOS.</span>
+    </div>
+  </footer>
+
+  <!--========== OVERLAY ==========-->
+  <div id="overlay"></div>
+
+  <!--========== SCROLL TOP ==========-->
+  <a href="#arriba" data-anima="5500" aria-label="Scroll to the top of the page" class="scroll-top" id="scroll-top">
+    <i class="fa-sharp fa-solid fa-arrow-up scroll-top__icon"></i>
+  </a>
+
+  <!--========== SCROLL REVEAL ==========-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--========== JS ==========-->
+  <script src="./js/main.js"></script>
+  
+  <script src="js/scrollTiempo.js"></script>
+
+</body>
+
+</html>
