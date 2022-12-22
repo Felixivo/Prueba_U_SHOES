@@ -1,4 +1,4 @@
-// MENU HAMBURGUESA
+
 
 const menu = document.getElementById("menu-hamburguesa");
 const menuItems = Array.from(
@@ -26,12 +26,12 @@ menuItems.forEach((item) => {
   });
 });
 
-// SCROLL TO TOP
+
 
 const scrollTopIcon = document.getElementById("scroll-top");
 
 function scrollTop() {
-  // WINDOW.SCROLLY ES LA CANTIDAD DE SCROLL VERTICAL (Y) QUE HIZO EL USUARIO
+ 
 
   if (window.scrollY >= 560) {
     scrollTopIcon.classList.add("show-scroll-top");
@@ -42,7 +42,7 @@ function scrollTop() {
 
 window.addEventListener("scroll", scrollTop);
 
-// GALLERY
+
 
 const overlay = document.getElementById("overlay");
 const imgs = document.querySelectorAll(".gallery__item");
@@ -74,7 +74,7 @@ imgs.forEach((img) => {
   });
 });
 
-// SUBMIT FORM
+
 
 const inputs = document.querySelectorAll(".contact__form-input");
 const submitButton = document.getElementById("contact__form-submit");
@@ -82,20 +82,13 @@ const submitButton = document.getElementById("contact__form-submit");
 const values = {};
 
 inputs.forEach((input, index) => {
-  //AGREGA UNA PROPIEDAD AL OBJETO { 1: "" }
+
   values[index] = input.value;
 
-  // LE AGREGAMOS A TODOS LOS INPUT UN EVENTO INPUT QUE SE EJECUTA CADA VEZ QUE CAMBIA EL VALUE DE ESE INPUT
+
   input.addEventListener("input", () => {
-    // ACTUALIZAMOS ESA PROPIEDAD DEL OBJETO CON EL VALOR ACTUAL DEL INPUT
     values[index] = input.value;
-
-    // PREGUNTAMOS SI SON TODOS (EVERY) LOS VALORES DEL OBJETO (OBJECT.VALUES) SON VERDADEROS
-
-    //RECORDATORIO => UN STRING VACÍO SIEMPRE ES FALSO
     const isValid = Object.values(values).every((value) => value);
-
-    //SI ES VALIDO, SETEAMOS LA PROPIEDAD DISABLED DEL BOTÓN A FALSE
     if (isValid) {
       submitButton.disabled = false;
     } else {
@@ -103,9 +96,6 @@ inputs.forEach((input, index) => {
     }
   });
 });
-
-//Scroll Reveal Animation
-
 const sr = ScrollReveal({
   origin: "bottom",
   distance: "30px",
